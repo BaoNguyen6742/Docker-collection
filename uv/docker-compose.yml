@@ -1,0 +1,7 @@
+services:
+  uv-docker:
+    build: .
+    image: uv-image:v1.0
+    container_name: uv-container
+    stdin_open: true # Add this
+    tty: true # Add this
